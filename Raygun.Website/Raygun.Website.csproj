@@ -27,7 +27,6 @@
       <Folder Include="clientapp\src\types" />
       <Folder Include="clientapp\src\vendor" />
       <Folder Include="Content\Fonts" />
-      <Folder Include="Content\Images" />
     </ItemGroup>
 
     <PropertyGroup>
