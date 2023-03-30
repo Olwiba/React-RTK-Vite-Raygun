@@ -3,7 +3,7 @@
 Welcome to the revamped FE POC for the Raygun application. 
 
 ## Implimented structure
-
+```
 Raygun.Website
 ✅ ├ 📂Content
 ✅ │ ├ 📂Fonts - fonts used on site
@@ -89,3 +89,4 @@ Raygun.Website
 ✅ ├ 📄tsconfig.json - TS project config
 ✅ ├ 📄tslint.json - TS lint settings
 🚧 └ 📄Gruntfile.js - base gruntfile
+```
