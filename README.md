@@ -2,6 +2,15 @@
 
 Welcome to the revamped FE POC for the Raygun application. 
 
+## To get running
+1. Pull down repo
+2. `cd .\Raygun.Website\clientapp\`
+3. `npm/yarn install`
+4. `yarn dev`
+5. `cd ../`
+6. Open .sln
+7. Build run
+
 ## Implimented structure
 ```
 Raygun.Website
