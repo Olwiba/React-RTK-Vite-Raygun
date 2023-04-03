@@ -19,7 +19,6 @@
       <Folder Include="clientapp\src\common\utils\charts" />
       <Folder Include="clientapp\src\common\utils\links" />
       <Folder Include="clientapp\src\screens\applicationPerformanceMonitoring" />
-      <Folder Include="clientapp\src\screens\authentication" />
       <Folder Include="clientapp\src\screens\crashReporting" />
       <Folder Include="clientapp\src\screens\planSettings" />
       <Folder Include="clientapp\src\screens\realUserMonitoring" />
