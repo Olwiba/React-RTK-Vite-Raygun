@@ -2,6 +2,11 @@
 
 Welcome to the revamped FE POC for the Raygun application. 
 
+I'm trying to impliment the first steps of the project plan I made at the end of 2022:
+https://olwiba.notion.site/Raygun-FE-Project-plan-f4c450c33e4b4db3afe01702067ae377
+
+I see this as an accompanying piece to try communicate the structure to other developers.
+
 ## What's this?
 
 This is a POC for the new FE application for Raygun. The application is built using React, Redux Toolkit, Vite, TailwindCSS, Typescript, and .NET Core MVC (v6).
