@@ -20,8 +20,8 @@ Follow these steps:
 4. Open the solution in Visual Studio / Rider
 5. Run the application
 
-https://localhost:7124/ - is running a .NET MVC (v6) demo
-https://localhost:7124/app - is running a React SPA demo
+https://localhost:7124/ - is running a .NET MVC (v6) demo  
+https://localhost:7124/app - is running a React SPA demo  
 
 ## What's next?
 
