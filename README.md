@@ -21,9 +21,9 @@ https://localhost:7124/app - is running a React SPA demo
 ## What's next?
 
 Some loose ideas if we're happy with where this is going would include:
-- [] Rip out bootstrap/jquery from the base Razor pages
-- [] Update template building and project configuration to remove the `/app` routing for the SPA
-- [] Would be good to get a page ported
+- [ ] Rip out bootstrap/jquery from the base Razor pages
+- [ ] Update template building and project configuration to remove the `/app` routing for the SPA
+- [ ] Would be good to get a page ported
 
 ## Implimented structure
 
