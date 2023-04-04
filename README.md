@@ -11,7 +11,7 @@ I see this as an accompanying piece to try communicate the structure to other de
 
 This is a Skeleton POC for the new FE application for Raygun. The application is built using React, Redux Toolkit, Vite, TailwindCSS, Typescript, and .NET Core MVC (v6).
 
-## UML (kinda)
+## UML (kinda... how do the pieces work?)
 ![image](https://user-images.githubusercontent.com/14970658/229943908-99643aa3-edb7-435f-8b60-0a9833be5cfe.png)
 
 ## How can I run it?
