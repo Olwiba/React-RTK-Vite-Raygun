@@ -2,8 +2,113 @@
 
 Welcome to the revamped FE POC for the Raygun application. 
 
+## What's this?
+
+This is a POC for the new FE application for Raygun. The application is built using React, Redux Toolkit, Vite, TailwindCSS, Typescript, and .NET Core MVC (v6).
+
+## How can I run it?
+
+Follow these steps:
+1. Clone the repo
+2. Run `npm/yarn install` in the `clientapp` directory, 
+3. Run `npm/yarn dev` in the `clientapp` directory
+4. Open the solution in Visual Studio / Rider
+5. Run the application
+
+https://localhost:7124/ - is running a .NET MVC (v6) demo
+https://localhost:7124/app - is running a React SPA demo
+
+## What's next?
+
+Some loose ideas if we're happy with where this is going would include:
+- [] Rip out bootstrap/jquery from the base Razor pages
+- [] Update template building and project configuration to remove the `/app` routing for the SPA
+- [] Would be good to get a page ported
+
 ## Implimented structure
 
+The project structure has differed slightly from the origianl plan, I didn't want to spend too much time on the structure documentation as this is sitll a POC (and very much a WIP).
+
+The structure of the project is as follows:
+
+```bash
+C:\WORKSPACE\REACT-RTK-VITE-RAYGUN\RAYGUN.WEBSITE
+├───.idea
+├───bin
+├───clientapp
+│   ├───node_modules
+│   ├───public
+│   └───src
+│       ├───app
+│       ├───common
+│       │   ├───api
+│       │   ├───components
+│       │   │   ├───asteroid
+│       │   │   │   ├───atoms
+│       │   │   │   └───molecules
+│       │   │   ├───charts
+│       │   │   └───chrome
+│       │   ├───hooks
+│       │   └───utils
+│       │       ├───charts
+│       │       └───links
+│       ├───features
+│       │   ├───charts
+│       │   │   └───errorsOverTime
+│       │   └───demo
+│       │       └───counter
+│       ├───routes
+│       ├───screens
+│       │   ├───applicationPerformanceMonitoring
+│       │   ├───authentication
+│       │   │   └───signIn
+│       │   ├───crashReporting
+│       │   ├───planSettings
+│       │   └───realUserMonitoring
+│       ├───snowplow
+│       ├───styles
+│       │   ├───css
+│       │   └───scss
+│       │       ├───components
+│       │       │   ├───asteriod
+│       │       │   │   ├───atoms
+│       │       │   │   └───molecules
+│       │       │   └───charts
+│       │       ├───icons
+│       │       ├───shared
+│       │       ├───vendor
+│       │       │   └───tailwindCss
+│       │       └───views
+│       ├───types
+│       └───vendor
+├───Content
+│   ├───Fonts
+│   └───Images
+├───Controllers
+├───Models
+├───obj
+├───Properties
+├───Views
+│   ├───Home
+│   └───Shared
+└───wwwroot
+    ├───css
+    ├───js
+    └───lib
+        ├───bootstrap
+        │   └───dist
+        │       ├───css
+        │       └───js
+        ├───jquery
+        │   └───dist
+        ├───jquery-validation
+        │   └───dist
+        └───jquery-validation-unobtrusive
+```
+
+The original structure plan was:
+
+```bash
 Raygun.Website
 ✅ ├ 📂Content
 ✅ │ ├ 📂Fonts - fonts used on site
@@ -89,3 +194,4 @@ Raygun.Website
 ✅ ├ 📄tsconfig.json - TS project config
 ✅ ├ 📄tslint.json - TS lint settings
 🚧 └ 📄Gruntfile.js - base gruntfile
+```
