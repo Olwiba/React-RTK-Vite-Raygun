@@ -1,6 +1,12 @@
 ![](https://assets-global.website-files.com/5e2701b416b6d176f5007781/6344bbf42c1388b9f34a5c6f_logo-colour-stylised-2.svg)
 
-Welcome to the revamped FE POC for the Raygun application. 
+```diff
++ This repo was my proposal on how a modern FE could be built using some cool technologies.
++ The proposal is now collecting bitrot, so I decided to make this public as it doesn't look like this is going anywhere.
++ Note - none of this is live. This worked in late 2022, however, isn't being maintained.
+```
+
+~~Welcome to the revamped FE POC for the Raygun application.~~
 
 I'm trying to impliment the first steps of the project plan I made at the end of 2022:  
 https://olwiba.notion.site/Raygun-FE-Project-plan-f4c450c33e4b4db3afe01702067ae377
